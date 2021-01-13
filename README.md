@@ -1,4 +1,4 @@
-# OPP_Ex3 - Directed Weighted Graph in Python
+# OOP_Ex3 - Directed Weighted Graph in Python
 
 Ex2 is the fourth exercise in the OPP course of Ariel university. this exercise will allow you to create a directed and weighted graph and to get information such as the shortest path between nodes, strongly connected components of the graph copy the graph, remove nodes, or edges, adding nodes, connection node, save and load graph and more.
 
