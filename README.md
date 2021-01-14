@@ -69,6 +69,9 @@ function:
 
 Ex3_Test (unittest)
 
+***
+**For more info go to our [wiki](https://github.com/ArielYifee/OOP_Ex3/wiki) page**
+***
 ## License
 
 this exercise was made by Ariel Yifee and Moriya Bitton.
