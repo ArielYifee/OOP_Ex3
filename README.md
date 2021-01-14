@@ -55,7 +55,7 @@ function:
  * save_to_json
  * shortest_path
  * connected_component
- * connected_components
+ * connected_components *We used Tarjan’s algorithm with Nuutila’s modifications
  * plot_graph
  * SetVal 
 	
