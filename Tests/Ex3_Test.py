@@ -1,9 +1,7 @@
 import os
 import unittest
-import matplotlib.pyplot as plt
 from src.DiGraph import DiGraph, NodeData
 from src.GraphAlgo import GraphAlgo
-import numpy as np
 
 
 class MyTestCase(unittest.TestCase):
@@ -146,36 +144,3 @@ class MyTestCase(unittest.TestCase):
         Galgo5.load_from_json('../data/G_10_80_1.json')
         Galgo5.plot_graph()
 
-    # def test_10(self):
-    #     ex3 = np.array([
-    #         [10, 0.0],
-    #         [100, 0.0009963512420654297],
-    #         [1000, 0.02393484115600586],
-    #         [10000, 0.2721903324127197],
-    #         [20000, 0.5893881320953369],
-    #         [30000, 1.2656137943267822],
-    #     ])
-    #     ex2 = np.array([
-    #         [10, 0.004],
-    #         [100, 0.016],
-    #         [1000, 0.042],
-    #         [10000, 0.216],
-    #         [20000, 0.279],
-    #         [30000, 0.290],
-    #     ])
-    #     nx = np.array([
-    #         [10, 0.0],
-    #         [100, 0.0],
-    #         [1000, 0.000997304916381836],
-    #         [10000, 0.06682515144348145],
-    #         [20000, 0.12566423416137695],
-    #         [30000, 0.2583613395690918],
-    #     ])
-    #     plt.plot(ex3[:, 0], ex3[:, 1], "*-r", label="Ex3")
-    #     plt.plot(ex2[:, 0], ex2[:, 1], "*-g", label="Ex2")
-    #     plt.plot(nx[:, 0], nx[:, 1], "*-b", label="NetworkX")
-    #     plt.legend()
-    #     plt.xlabel("Graphs size")
-    #     plt.ylabel("Time in second")
-    #     plt.title("Shortest Path Comparison")
-    #     plt.show()

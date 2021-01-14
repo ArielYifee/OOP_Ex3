@@ -137,7 +137,7 @@ class DiGraph(GraphInterface, NodeData):
             NodeData.SetEIn(self._Nodes[id2], (NodeData.GetEIn(self._Nodes[id2]) + 1))
             NodeData.SetEOut(self._Nodes[id1], (NodeData.GetEOut(self._Nodes[id1]) + 1))
             return True
-        else:
+        else:  # if the edge exist do nothing.
             return False
             # if self._Edges[id1][id] == weight:
             #     return False
@@ -155,7 +155,7 @@ class DiGraph(GraphInterface, NodeData):
             self._ReversEdges[node_id] = dict()
             self._MC += 1
             return True
-        else:
+        else:  # if the node exist do nothing
             return False
 
     def remove_node(self, node_id: int) -> bool:
